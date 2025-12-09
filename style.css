@@ -96,13 +96,16 @@ h6 {
 .nav-scroll .active {
 	position: relative;
 }
-@media(max-width:1280px) {
+.iconpanel{
+	justify-content: center;
+}
+@media(max-width:760px) {
 	.banner {
 		background: #7a60ff;
 		background: linear-gradient(to left, #7a60ff, #cd9ffa);
 		padding:100px 0px;
 		position:relative;
-		height:1300px;
+		height:1120px;
 	}
 }
 .banner {
